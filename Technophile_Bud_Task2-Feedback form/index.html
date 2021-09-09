@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Done By Mayuri Dudhe_Survey Form using html css only
+    </title>
+
+    <style>
+        /* Styling the Body element i.e. Color,
+		Font, Alignment */
+        
+        body {
+            background-color: #f7a170;
+            font-family: Verdana;
+            text-align: center;
+        }
+        /* Styling the Form (Color, Padding, Shadow) */
+        
+        form {
+            background-color: #fff;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 2px 5px 10px rgba(253, 153, 153, 0.5);
+        }
+        /* Styling form-control Class */
+        
+        .form-control {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+        /* Styling form-control Label */
+        
+        .form-control label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        /* Styling form-control input,
+		select, textarea */
+        
+        .form-control input,
+        .form-control select,
+        .form-control textarea {
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;
+        }
+        /* Styling form-control Radio
+		button and Checkbox */
+        
+        .form-control input[type="radio"],
+        .form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+        /* Styling Button */
+        
+        button {
+            background-color: #d6eb1a;
+            border: 1px solid rgb(27, 26, 26);
+            border-radius: 2px;
+            font-family: inherit;
+            font-size: 21px;
+            display: block;
+            width: 100%;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <h1>Responsive Feedback Evolution Form</h1>
+    <!-- Create Form -->
+    <form id="form">
+
+        <!-- Details -->
+        <div class="form-control">
+            <label for="name" id="label-name">
+				Name
+			</label>
+
+            <!-- Input Type Text -->
+            <input type="text" id="name" placeholder="Enter your name" />
+        </div>
+
+        <div class="form-control">
+            <label for="email" id="label-email">
+				Email
+			</label>
+
+            <!-- Input Type Email-->
+            <input type="email" id="email" placeholder="Enter your email" />
+        </div>
+
+        <div class="form-control">
+            <label for="age" id="label-age">
+				Age
+			</label>
+
+            <!-- Input Type Text -->
+            <input type="text" id="age" placeholder="Enter your age" />
+        </div>
+
+        <div class="form-control">
+            <label for="role" id="label-role">
+				1]How satisfied are you with the cleanliness and variety of food items available in the cafeteria?
+			</label>
+
+            <!-- Dropdown options -->
+            <select name="role" id="role">
+				<option value="Extremely satisfied">Extremely satisfied</option>
+				<option value="Very satisfied">  Very satisfied</option>
+				<option value=" Satisfied"> Satisfied</option>
+				<option value="Neutral">Neutral</option>
+                <option value="Extremely dissatisfied">Extremely dissatisfied</option>option>
+			</select>
+        </div>
+
+        <div class="form-control">
+            <label for="role" id="label-role">
+				2]Do you think faculty and support staff at the college were helpful?
+			</label>
+
+            <!-- Dropdown options -->
+            <select name="role" id="role">
+				<option value="Very helpful">Very helpful</option>
+				<option value="Helpful">Helpful</option>
+				<option value=" Neither helpful nor unhelpful"> Neither helpful nor unhelpful</option>
+				<option value="Unhelpful">Unhelpful</option>
+                <option value="Very unhelpful">Very unhelpful</option>option>
+			</select>
+        </div>
+
+
+        <div class="form-control">
+            <label for="role" id="label-role">
+				3]What do you think about extracurricular activities?
+			</label>
+
+            <!-- Dropdown options -->
+            <select name="role" id="role">
+              
+               
+				<option value="They are too few">They are too few</option>
+				<option value="hey are just right">hey are just right</option>
+				<option value=" I was overwhelmed with the number"> I was overwhelmed with the number</option>
+				
+			</select>
+        </div>
+
+
+        <div class="form-control">
+            <label>
+				4]Given a chance, are you willing to pursue another course at the college?
+			</label>
+
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+				<input type="radio"
+					id="recommed-1"
+					name="recommed">Definitely, Yes</input>
+                   
+                   
+			</label>
+            <label for="recommed-2">
+				<input type="radio"
+					id="recommed-2"
+					name="recommed"> Probably, Yes</input>
+			</label>
+            <label for="recommed-3">
+				<input type="radio"
+					id="recommed-3"
+					name="recommed">Probably, No</input>
+			</label>
+
+            <label for="recommed-4">
+				<input type="radio"
+					id="recommed-4"
+					name="recommed">Can’t say</input>
+			</label>
+        </div>
+
+        </div>
+        <div class="form-control">
+            <label> 5]How many hours a week do you work your part-time job?
+			
+			</label>
+
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+				<input type="radio"
+					id="recommed-1"
+					name="recommed">I don’t have a job</input>
+                      
+			</label>
+            <label for="recommed-2">
+				<input type="radio"
+					id="recommed-2"
+					name="recommed">1-10 hours a week</input>
+			</label>
+            <label for="recommed-3">
+				<input type="radio"
+					id="recommed-3"
+					name="recommed">11-15 hours a week</input>
+			</label>
+
+            <label for="recommed-4">
+				<input type="radio"
+					id="recommed-4"
+					name="recommed">16-20 hours a week </input>
+			</label>
+
+            <label for="recommed-4">
+				<input type="radio"
+					id="recommed-4"
+					name="recommed">More than 20 hours a week</input>
+			</label>
+            <!-- &nbsp; for space -->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;
+
+
+            <div class="form-control">
+                <label for="comment">
+                Please provide us with additional feedback on areas that need improvement
+                Any comments or suggestions
+			</label>
+
+                <!-- multi-line text input control -->
+                <textarea name="comment" id="comment" placeholder="Enter your comment here">
+			</textarea>
+            </div>
+
+            <!-- Multi-line Text Input Control -->
+            <button type="submit" value="submit">
+			Submit
+		</button>
+    </form>
+</body>
+
+</html>
